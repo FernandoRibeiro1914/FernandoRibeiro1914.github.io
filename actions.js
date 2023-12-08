@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log("Nome:", nome);
             console.log("Senha:", senha);
             /*Após "clickar" em OK na, o usuário é redirecionado p/ Página Inicial*/
-            window.location.href = "HTMLSeparado.html";
+            window.location.href = '../index.html';
         }
     }
 });
