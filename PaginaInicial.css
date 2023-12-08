@@ -1,0 +1,43 @@
+/* Ajusta a cor e o alinhamento do txt no corpo da PAGE */
+body {
+    color: black; /*Cor do txt*/
+    text-align: center;/*Alinhando txt p/ centralizado*/
+}
+
+/* Definindo as fontes p/ corpo da PAGE*/
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Definindo Background com efeito gradiente*/
+body{  
+    background-image: linear-gradient(
+     rgb(56, 56, 247),
+     WHITE 
+    );
+}
+
+/* Como os links da PAGE devem ficar */ 
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+/* Cor do parágrafo */
+p {
+    color: black;
+}
+/* Define a margem das imagens. Isso terá um afastamento uniforme entre as imgs e outros elementos.*/
+img {
+    margin: 10px;
+}
+/* Define a posição e a cor do elemento no Footer/Rodapé.*/
+footer {
+    text-align: center;
+    color: black;
+}
+
+/* Ajuste de fonte para o h1 com a classe "destaque" */
+h1.destaque {
+    font-size: 18px; /* Ajuste o valor conforme necessário */
+}

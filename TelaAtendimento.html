@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento</title>
+    <link rel="stylesheet" type="text/css" href="TelaAtendimento.css">
+</head>
+<body>
+    <h1>Atendimento</h1>
+    <div>
+        <a href="index.html">Início</a>
+    </div>
+<p>Por favor, informe seus dados de contato, qual assunto a ser resolvido e por fim, nos conte detalhes sobre o assunto!</p>
+    <!-- Formulário de Contato -->
+    <form onsubmit="salvarDados(event)">
+        <!-- Campos do formulário -->
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="contato">E-mail ou Telefone:</label>
+        <input type="text" id="contato" name="contato" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <!-- Botão de Envio -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>Entre em contato conosco por telefone ou via E-mail: 
+        <p>(11) 94002-89202</p>
+        <p>(11) 9777-08923</p>
+        <a href="mailto:propertysolve.com.br">propertysolve.com.br</a></p>
+    </footer>
+
+    <script src="TelaAtendimento.js"></script>
+</body>
+</html>

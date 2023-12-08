@@ -1,0 +1,59 @@
+/* Ajusta a contar e o alinhamento do cabeçalho */
+body {
+    color: black;
+    text-align: center;
+}
+/* Define a cor de fundo*/
+body {
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+body{  
+    background-image: linear-gradient(
+     rgb(152, 255, 216),
+     WHITE 
+
+
+
+    );
+}
+
+/* Como os "botões" da PAGE devem ficar */ 
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+/* Cor do parágrafo */
+p {
+    color: black;
+}
+/* Define a margem das imagens. Isso terá um afastamento uniforme entre as imgs e outros elementos.*/
+img {
+    margin: 10px;
+}
+/* Define a posição e a cor do elemento no Footer/Rodapé.*/
+footer {
+    text-align: center;
+    color: black;
+}
+
+.custom-font-size {
+    font-size: 18px;
+    /* Outros estilos específicos, se necessário */
+}
+
+nav a {
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: rgb(57, 213, 91); /* Adicione a cor que desejar */
+    padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+    border-radius: 5px; /* Adicione bordas arredondadas, se desejar */
+}
+

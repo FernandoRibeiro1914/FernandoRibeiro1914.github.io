@@ -1,0 +1,57 @@
+/* Fonte e background da PAGE */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(25deg, rgb(58, 58, 250), white );
+}
+
+/* Config. da Caixa central */
+div {
+    background-color: rgba(41, 54, 56, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+}
+
+/* Config. das caixas de entrada */
+input {
+    padding: 20px; /*Adicionando espaçamento interno  às caixas de entrada*/
+    border: none; /*Borda do campo*/
+    outline: none; /* Remove a borda de foco ao clicar nas caixas de entrada */
+    font-size: 16px; /* Tamanho da fonte nas caixas de entrada */
+    transition: border 0.3s ease-in-out; /* Adiciona uma transição suave na borda */
+}
+
+/*Config. dos btns de envio */
+button {
+    background-color: rgb(152, 247, 215); /* Cor do BackGround  dos BUTTONS de INPUT */
+    border: none;
+    padding: 15px;
+    width: 100%; /* Largura dos BUTTONS como 100% da largura da caixa pai */
+    border-radius: 20px; /* Arredonda as bordas dos BUTTONS */
+    color: white; /* Cor do texto nos BUTTONS */
+    font-size: 20px;  /* Tamanho da fonte nos BUTTONS */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/*Ação dos btns quando ficam no foco do cursor */
+button:hover {
+    background-color: rgb(157, 240, 240); /*Cor do BackGround quando passa o cursor*/
+    cursor: pointer;
+}
+
+input {
+    border: 2px solid transparent;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+input:focus {
+    border-color: rgb(22,0,23);
+}
+
+.button:hover {
+    background-color: #56b2fd;
+}

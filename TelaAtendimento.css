@@ -1,0 +1,92 @@
+/* TelaAtendimento.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(
+        to bottom,
+        #b3ffcc,
+        #ffffff
+    );
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div a {
+    border-radius: 10px; /* Adicionando borda redonda */
+    padding: 10px 15px; /* Ajustando o preenchimento para dar espaço à borda */
+}
+
+div a:hover {
+    color: #45a049; /* Mudando a cor do texto no hover */
+    text-decoration: underline; /* Adicionando sublinhado no hover */
+    background-color: #f0f0f0; /* Adicionando um fundo diferente no hover, opcional */
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+footer p,
+footer a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a[href^="mailto:"] {
+    color: blue;
+    text-decoration: underline;
+}

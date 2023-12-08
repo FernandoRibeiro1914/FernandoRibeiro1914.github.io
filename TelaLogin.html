@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <!--Referência p/ arquivo CSS-->    
+    <link rel="stylesheet" type="text/css" href="TelaLogin.css">
+</head>
+<body>
+    <div>
+        <!--Título-->
+        <h1>Login</h1>
+        <!--INPUT p/ inserir o nome-->
+        <input type="text" id="nomeInput" placeholder="Nome" required>
+        <br><br>
+        <!--INPUT p/ inserir a senha-->
+        <input type="password" id="senhaInput" placeholder="Senha" required>
+        <br><br>
+        <!--BUTTONS de "enviar", "Esqueceu a senha"-->
+        <button id="enviarBtn">Enviar</button>
+        <br><br>
+        <button id="esqueceuSenhaBtn">Esqueceu a senha?</button>
+        <br><br>
+        <!--BUTTON com referência p/ "TelaCadastro"-->
+        <a href="TelaCadastro.html">
+            <button id="cadastreBtn">Cadastre-se</button>
+        </a>
+    </div>
+    <!--Script que faz referência as "ações" da página. Conexão entre HTML & JS-->
+    <script src="actions.js"></script>
+</body>
+</html>
